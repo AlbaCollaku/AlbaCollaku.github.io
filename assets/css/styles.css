@@ -1,0 +1,109 @@
+/* assets/css/styles.css */
+
+/* Bootstrap integration */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+
+/*CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f7f1f1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px 60px;
+}
+
+
+#navbar {
+    display: flex;
+    gap: 10px; 
+}
+#navbar button, #navbar, .add_button, .delete{
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+}
+
+.add_button{
+    background-color: #157997;
+}
+
+.add_button:hover {
+    background-color: #125d77;
+}
+.delete {
+    background-color: #f53500;
+}
+
+.delete:hover {
+    background-color: #d72f00;
+}
+
+.page_title {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    color: #0a5e78;
+}
+
+.page_title:hover {
+    color: #157997;
+    text-decoration: none;
+}
+
+#form-buttons{
+    text-align: center;
+}
+.container {
+    flex: 1;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #f7f1f1;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
+
